@@ -90,7 +90,7 @@ local RevengeSetts = getgenv().RevengeSetts
 local circle = Drawingnew("Circle")
 circle.Transparency = 1
 circle.Thickness = 2
-circle.Color = Aiming.FOVColour
+circle.Color = RevengeSetts.FOVColour
 circle.Filled = false
 RevengeSetts.FOVCircle = circle
 
